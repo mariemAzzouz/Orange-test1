@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "~leaflet/dist/leaflet.css";
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  --white: #DDDDDD; /* Example color value */
+  --text-color: #222831;
+  --dark-blue: #30475E;
+  --red:#F05454; /* Example color value */
+
+  --font-primary: "PT Sans", sans-serif;
+	--font-secondary: Poppins, sans-serif;
+	//UI Colors
+	--color-primary: #96a0a5;
+	--color-secondary: #e3e6e7;
+	--color-extra: #e7edef;
+	--color-light: #fafafa;
+	--color-dark: #030303;
+}
+
+body {
+  // background-color: var(--color-extra);
+  padding: 10px 0px;
+  border-radius: 22px;
+}
